@@ -1,7 +1,7 @@
 # Financial Transaction Fraud Analysis
 ## Objective
 
-This project analyzes financial transaction data to identify fraud patterns and high-risk behaviors. The goal is to support financial institutions in detecting and preventing fraudulent activities through data-driven insights.
+This project analyzes financial transaction data to identify fraud patterns and high risk behaviors. The goal is to support financial institutions in detecting and preventing fraudulent activities through data driven insights.
 
 ## Tools & Technologies
 - Power BI
@@ -23,7 +23,6 @@ The dataset contains simulated financial transactions with features such as:
 - Cleaned and transformed raw transaction data using Power Query
 - Created calculated columns:
   - Amount Category (Small, Medium, Large)
-  - Balance Issue Flag (Insufficient vs Valid balance)
   - Transaction Status Classification
 - Developed DAX measures:
   - Total Transactions
@@ -32,9 +31,9 @@ The dataset contains simulated financial transactions with features such as:
   - Total Fraud Amount
 
 ## Key Metrics (KPIs)
-- Total Transactions: 6M+
-- Total Fraud Cases: 8K+
-- Fraud Rate: ~0.13%
+- Total Transactions: 6M
+- Total Fraud Cases: 8K
+- Fraud Rate: 0.13%
 - Total Fraud Amount: 12B+
 
 ## Dashboard Insights
@@ -67,6 +66,13 @@ Fraud occurrences fluctuate over time with periodic spikes, highlighting the nee
 - Fraud often involves abnormal balance behavior and failed transaction patterns
 
 ## Project Structure
+- screenshots/ → Dashboard image
+
+---
+
+### N:B Dataset not included due to size limits.
 - data/ → Raw dataset
 - dashboard/ → Power BI file (.pbix)
-- screenshots/ → Dashboard images
+
+Download here: https://drive.google.com/drive/folders/13XuZ0dnCUPkgeE_hUXnjAYAUsbjGJDKr?usp=sharing
+
